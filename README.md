@@ -1,6 +1,6 @@
 # MIBP
 
-Code for the paper Characterization and visualization of RNA secondary structure Boltzmann ensemble via information theory by Luan Lin1, Wilson H. McKerrow, Bryce Richards, Chukiat Phonsom and Charles E. Lawrence
+Code for the paper Characterization and visualization of RNA secondary structure Boltzmann ensemble via information theory by Luan Lin, Wilson H. McKerrow, Bryce Richards, Chukiat Phonsom and Charles E. Lawrence
 
 https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-018-2078-5
 
@@ -18,6 +18,7 @@ You can obtain RNAStructure from http://rna.urmc.rochester.edu/RNAstructure.html
 (3) After completion, visualization.html will appear. Open this with firefox to view a visulization similar to Figure 3 of the paper. Click on a node of the tree to get a detailed view. Files for the visualization are located in the jsons folder. To retain a visualization simply rename visualization.html and make sure that it is in the same folder as a folder called 'jsons' containing the appropriate files.
 
 (4) The results folder contains a large dump of data related to the run. If you are not interested in this, you may wish to delete it before running again. The format for the file names is:
+
 <RNA_NAME>_<node_name>_<kind>
 where kind is
 energy: the total free energy of structures in the node (region or well in the paper). This value is used to calculate the probability of a region/well.
