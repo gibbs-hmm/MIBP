@@ -1,4 +1,9 @@
 # MIBP
+
+Code for the paper Characterization and visualization of RNA secondary structure Boltzmann ensemble via information theory by Luan Lin1, Wilson H. McKerrow, Bryce Richards, Chukiat Phonsom and Charles E. Lawrence
+
+https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-018-2078-5
+
 ```text
 (1) To run the executable, make this folder you current matlab directory and
 run the master_script_hibp.m script. It runs modified RNAstructure executable,
